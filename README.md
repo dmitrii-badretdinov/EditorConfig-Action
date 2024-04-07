@@ -31,7 +31,7 @@
   - [Using EditorConfig-Action with Your Project](#using-editorconfig-action-with-your-project)
   - [Example Workflows](#example-workflows)
     - [Check Conformance of Pushed Commits with `.editorconfig`](#check-conformance-of-pushed-commits-with-editorconfig)
-  - [Features and Planed Features](#features-and-planed-features)
+  - [Features and Planned Features](#features-and-planned-features)
   - [EditorConfig Resources](#editorconfig-resources)
   - [Other GitHub Actions from @zbeekman](#other-github-actions-from-zbeekman)
 
@@ -104,7 +104,7 @@ repository will be checked. Depending on the size of the repository, this may be
 For protected branches, it is best to set the required action to be the one created with the `on = "pull_request"`,
 e.g., `"EC Audit Push"` above, since PRs from forks will not trigger a local push event.
 
-## Features and Planed Features
+## Features and Planned Features
 
 Features currently in development or being considered for addition include:
 
